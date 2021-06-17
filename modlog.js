@@ -11,7 +11,6 @@ var Jimp = require("jimp");
 const { Client, Util } = require("discord.js");
 const weather = require("weather-js");
 const fs = require("fs");
-const db = require("quick.db");
 const http = require("http");
 const express = require("express");
 require("./util/eventLoader")(client);
