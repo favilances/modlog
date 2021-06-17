@@ -51,7 +51,7 @@ var prefix = ayarlar.prefix;
 const log = message => {
   console.log(`${message}`);
 };
-
+client.user.setActivity("Favilances | Mod Log")
 
 
 
