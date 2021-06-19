@@ -1,0 +1,22 @@
+{
+  "name": "log",
+  "version": "1.0.0",
+  "description": "log",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/favilances/favilances-log"
+  },
+  "keywords": [
+    "favi"
+  ],
+  "author": "favi#0001",
+  "license": "ISC",
+  "dependencies": {
+    "discord-logs": "^1.9.0",
+    "discord.js": "^12.5.3"
+  }
+}
