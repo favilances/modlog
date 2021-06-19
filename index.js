@@ -11,7 +11,7 @@ const { MessageEmbed } = require("discord.js");
 const logs = require('discord-logs');
 logs(client);
 client.on('ready', () => {
-  client.user.setActivity("Favilances | Mod Log")
+  client.user.setActivity("Favilances | discord.gg/minecraftserver")
 });
 
 client.login(TOKEN)
