@@ -1,1 +1,1 @@
-worker node modlog.js
+worker node index.js
