@@ -6,7 +6,7 @@ const client = new Discord.Client({
 const MOD_CHANNEL = "845711227753988136";
 const SERVER = "821714989849116702";
 const PREFIX = "!";
-const TOKEN = "ODU1MTM5NTQ3ODI5NjMzMDY0.YMuIww.lUy4kVPiV7z05zqSqBYKwScc6XY";
+const TOKEN = "ODU1MTM5NTQ3ODI5NjMzMDY0.YMuIww.9Vi3rowarvCVaMCxnkm0YgKlTSs";
 const { MessageEmbed } = require("discord.js");
 const logs = require('discord-logs');
 logs(client);
