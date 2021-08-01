@@ -3,7 +3,7 @@ const client = new Discord.Client({
   partials: ["MESSAGE", "CHANNEL", "REACTION"]
 });
 
-const MOD_CHANNEL = "845711227753988136";
+const MOD_CHANNEL = "866980736087490610";
 const SERVER = "821714989849116702";
 const PREFIX = "!";
 const TOKEN = "ODU1MTM5NTQ3ODI5NjMzMDY0.YMuIww.9Vi3rowarvCVaMCxnkm0YgKlTSs";
@@ -11,7 +11,7 @@ const { MessageEmbed } = require("discord.js");
 const logs = require('discord-logs');
 logs(client);
 client.on('ready', () => {
-  client.user.setActivity("Favilances | discord.gg/minecraftserver")
+  client.user.setActivity("Favilances | discord.gg/partners")
 });
 
 client.login(TOKEN)
