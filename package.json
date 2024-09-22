@@ -11,9 +11,9 @@
     "url": "github.com/favilances/favilances-log"
   },
   "keywords": [
-    "favi"
+    "favilances"
   ],
-  "author": "favi#0001",
+  "author": "favilances",
   "license": "ISC",
   "dependencies": {
     "discord-logs": "^1.9.0",
