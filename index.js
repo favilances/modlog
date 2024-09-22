@@ -3,15 +3,15 @@ const client = new Discord.Client({
   partials: ["MESSAGE", "CHANNEL", "REACTION"]
 });
 
-const MOD_CHANNEL = "866980736087490610";
-const SERVER = "821714989849116702";
-const PREFIX = "!";
-const TOKEN = "ODU1MTM5NTQ3ODI5NjMzMDY0.YMuIww.9Vi3rowarvCVaMCxnkm0YgKlTSs";
+const MOD_CHANNEL = "";
+const SERVER = "";
+const PREFIX = "";
+const TOKEN = "";
 const { MessageEmbed } = require("discord.js");
 const logs = require('discord-logs');
 logs(client);
 client.on('ready', () => {
-  client.user.setActivity("Favilances | discord.gg/partners")
+  client.user.setActivity("Favilances")
 });
 
 client.login(TOKEN)
